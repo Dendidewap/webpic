@@ -5,6 +5,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 150cm;
+}
+
+.dewa {
+  font-size: 48px;
+  background: -webkit-linear-gradient(180deg, #27c1c3, #dd2dd5);
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .logo {
