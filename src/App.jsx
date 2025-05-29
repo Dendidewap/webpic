@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className="mt-36 ">
         <div className="font-bold text-4xl flex justify-center text-slate-300 mt-10 mb-20 dewa">
-          MY PRODUCT
+          MY PRODUCT LIST
         </div>
         <Product />
       </div>
