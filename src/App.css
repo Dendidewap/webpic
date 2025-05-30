@@ -1,13 +1,35 @@
 @import "tailwindcss";
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+
   text-align: center;
   height: 150cm;
 }
 
+.rea {
+  width: 50px;
+  height: 50px;
+}
+.dew {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 1 rem;
+}
+.dewo {
+  font-size: 16px;
+}
+.nav {
+  width: 100%;
+  background: linear-gradient(
+    292deg,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(9, 9, 121, 1) 42%,
+    rgba(8, 31, 136, 1) 57%,
+    rgba(0, 212, 255, 1) 74%,
+    rgba(0, 212, 255, 1) 83%
+  );
+}
 .dewa {
   font-size: 48px;
   background: -webkit-linear-gradient(180deg, #27c1c3, #dd2dd5);

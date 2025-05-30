@@ -51,7 +51,7 @@ const CardProduct = (props) => {
 
         <p className="text-gray-700  text-xs">USD {props.price}$</p>
         <p className="text-gray-700  text-xs">
-          {props.description.substring(0, 95)}...
+          {props.description.substring(0, 75)}...
         </p>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded mt-4">
           Buy

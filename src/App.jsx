@@ -1,20 +1,24 @@
 import React from "react";
 import "./App.css";
 import Product from "./product.jsx";
+import Nav from "./nav.jsx";
 
 function App() {
   return (
     <>
+      <div className="w-full sticky top-0 z-50 ">
+        <Nav />
+      </div>
       <div className="mx-48 mb-20 ">
-        <div className="font-bold text-4xl flex justify-center text-slate-300 mt-10 dewa">
+        <div className="font-bold text-4xl flex justify-center text-slate-300 mt-15 dewa">
           MY GALLERY
         </div>
       </div>
-      <div className="container grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3 xl:gap-4 my-10">
-        <h2 className="text-xl font-semibold text-slate-600 md:col-start-4 md:row-start-2 md:flex">
+      <div className="container grid grid-cols-2 gap-2 md:grid-cols-4  md:gap-3 xl:gap-4 my-10 dew">
+        <h2 className="text-xl font-semibold text-white md:col-start-4 md:row-start-2 md:flex">
           <span className="self-center md:ml-3 xl:ml-14 "> Welcome Den </span>
         </h2>
-        <h2 className="text-lg font-semibold text-slate-600 md:col-start-2  mb-5 md:row-start-2 md:flex">
+        <h2 className="text-lg font-semibold text-white md:col-start-2  mb-5 md:row-start-2 md:flex">
           <span className="self-end xl:mb-1 xl:ml-3">@Denxdwp_</span>
         </h2>
 
@@ -49,8 +53,8 @@ function App() {
           <div className="w-full h-full bg-[url('./img/10.jpeg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500"></div>
         </div>
       </div>
-      <div className="mt-36 ">
-        <div className="font-bold text-4xl flex justify-center text-slate-300 mt-10 mb-20 dewa">
+      <div className="mt-36 dew ">
+        <div className="font-bold text-4xl flex justify-center text-slate-300 mt-25 mb-20 dewa">
           MY PRODUCT LIST
         </div>
         <Product />

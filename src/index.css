@@ -4,8 +4,14 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
- 
-background: linear-gradient(292deg, rgba(255, 255, 255, 1) 12%, rgba(9, 9, 121, 1) 42%, rgba(8, 31, 136, 1) 57%, rgba(0, 212, 255, 1) 74%, rgba(0, 212, 255, 1) 83%);
+  background: linear-gradient(
+    292deg,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(9, 9, 121, 1) 42%,
+    rgba(8, 31, 136, 1) 57%,
+    rgba(0, 212, 255, 1) 74%,
+    rgba(0, 212, 255, 1) 83%
+  );
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +20,7 @@ background: linear-gradient(292deg, rgba(255, 255, 255, 1) 12%, rgba(9, 9, 121, 
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: skyblue;
   text-decoration: inherit;
 }
 a:hover {
